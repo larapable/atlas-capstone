@@ -1,0 +1,399 @@
+.signup-page-container {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  padding-left: 7.3rem;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.signup-container {
+  margin: 7rem 8.4rem 11.4rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.signup-container .signup {
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 4.1rem;
+  color: #000000;
+  margin-bottom: 4rem;
+}
+.department-container {
+  border-radius: 0.6rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.6);
+  background: #ffffff;
+  position: relative;
+  margin-bottom: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0 1rem 0.3rem;
+  width: 38rem;
+  box-sizing: border-box;
+}
+.department-container input {
+  border: none;
+  background: transparent; /* Transparent background */
+  flex: 1; /* Take up remaining space */
+  padding: 0.1rem 0 0 0; /* Remove padding */
+  font-size: 1.2rem; /* Adjust font size */
+  color: #000; /* Text color */
+  outline: none;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+.email-container {
+  border-radius: 0.6rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.6);
+  background: #ffffff;
+  position: relative;
+  margin-bottom: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0 1rem 0.3rem;
+  width: 38rem;
+  box-sizing: border-box;
+}
+.email-container input {
+  border: none;
+  background: transparent; /* Transparent background */
+  flex: 1; /* Take up remaining space */
+  padding: 0.1rem 0 0 0; /* Remove padding */
+  font-size: 1.2rem; /* Adjust font size */
+  color: #000; /* Text color */
+  outline: none;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+.username-container {
+  border-radius: 0.6rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.6);
+  background: #ffffff;
+  position: relative;
+  margin-bottom: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0 1rem 0.3rem;
+  width: 38rem;
+  box-sizing: border-box;
+}
+.username-container input {
+  border: none;
+  background: transparent; /* Transparent background */
+  flex: 1; /* Take up remaining space */
+  padding: 0.1rem 0 0 0; /* Remove padding */
+  font-size: 1.2rem; /* Adjust font size */
+  color: #000; /* Text color */
+  outline: none;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+.department-container input::placeholder,
+.email-container input::placeholder,
+.username-container input::placeholder,
+.password-container input::placeholder {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #807979; /* Placeholder color */
+  display: flex;
+  justify-content: center; /* Center the placeholder text vertically */
+  align-items: center;
+}
+.two-password-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.password-container {
+  border-radius: 0.6rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.6);
+  background: #ffffff;
+  position: relative;
+  margin-bottom: 1.6rem;
+  margin-right: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0 1rem 0.3rem;
+  width: 18.1rem;
+}
+.confirmpassword-container {
+  border-radius: 0.6rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.6);
+  background: #ffffff;
+  position: relative;
+  margin-bottom: 1.6rem;
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0 1rem 0.3rem;
+  width: 18.1rem;
+}
+.password-container input,
+.confirmpassword-container input {
+  border: none;
+  background: transparent; /* Transparent background */
+  flex: 1; /* Take up remaining space */
+  padding: 0.1rem 0 0 0; /* Remove padding */
+  font-size: 1.2rem; /* Adjust font size */
+  color: #000; /* Text color */
+  outline: none;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+.signup-button {
+  border-radius: 0.6rem;
+  border: 0.1rem solid #ffffff;
+  background: #8a252c;
+  position: relative;
+  margin-bottom: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.3rem 3.1rem 1.4rem 3.1rem;
+  width: 38rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.signup-button:hover {
+  color: #8a252c;
+  background-color: #eec160;
+}
+.signup-line-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+.signup-line {
+  background: #807979;
+  opacity: 50%;
+  width: 17.3rem;
+  height: 0.2rem;
+}
+.signup-or {
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #807979;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.signup-back-home {
+  margin-top: 1.3rem;
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #8a252c;
+  text-decoration: none;
+}
+.signup-back-home:hover {
+  text-decoration: underline;
+}
+.signup-red-container {
+  background: #8a252c;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-left: 5%;
+}
+.signup-scorecard-container {
+  background: url("images/wc-screen-scorecard.png") 50% / cover no-repeat;
+  margin: 7rem 23.7rem 1rem -1rem;
+  width: 7em;
+  height: 7rem;
+  transition: transform 0.3s;
+}
+.signup-scorecard-container:hover {
+  transform: scale(1.1);
+}
+
+.signup-scorecard-text {
+  margin: 0 5rem 1rem 10rem;
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.signup-yellow-letter {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fad655;
+}
+.signup-swot-container {
+  background: url("images/wc-screen-swot.png") 50% / cover no-repeat;
+  margin: 2rem 23.7rem 1.6rem 0;
+  width: 7em;
+  height: 7rem;
+  transition: transform 0.3s;
+}
+.signup-swot-container:hover {
+  transform: scale(1.1);
+}
+.signup-strategy-container {
+  background: url("images/wc-screen-stratmap.png") 50% / cover no-repeat;
+  margin: 2rem 23.7rem 1.6rem 0;
+  width: 7em;
+  height: 7rem;
+  transition: transform 0.3s;
+}
+.signup-strategy-container:hover {
+  transform: scale(1.1);
+}
+.already-have-account {
+  overflow-wrap: break-word;
+  margin-top: 0.8rem;
+  font-weight: 300;
+  font-size: 1.063rem;
+  line-height: 1.333;
+  color: #000000;
+}
+.already-have-account .login-here {
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none; /* Remove underline */
+}
+.login-here:hover {
+  text-decoration: underline;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 1440px) {
+  .signup-page-container {
+    flex-direction: row; /* Change to column layout on smaller screens */
+    padding: 0rem;
+    height: 100vh;
+  }
+  .signup-container {
+    margin-left: 10rem; /* Adjust margin */
+    margin-top: 1rem;
+  }
+  .department-container,
+  .email-container,
+  .username-container {
+    width: 32rem;
+    padding: 1rem 3rem 1rem 0rem;
+    margin-bottom: 0.5rem;
+  }
+  .password-container,
+  .confirmpassword-container {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 15.1rem;
+  }
+  .signup-button {
+    width: 32rem;
+    margin-top: 0rem;
+    padding: 1rem 3rem 1rem 3rem;
+  }
+  .already-have-account {
+    margin-top: 0.5rem;
+    font-size: small;
+  }
+  .signup-line-container {
+    width: 32rem;
+  }
+  .signup-or {
+    font-size: small;
+  }
+  .signup-back-home {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .signup-red-container {
+    margin-left: 0rem;
+  }
+  .signup-scorecard-container {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .signup-swot-container,
+  .signup-strategy-container {
+    margin-top: 1rem;
+    margin-left: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .signup-scorecard-text {
+    font-size: 1.3rem;
+    margin-left: 8rem;
+  }
+  .signup-yellow-letter {
+    font-size: 1.3rem;
+  }
+  @media screen and (max-width: 1366px) {
+    .signup-page-container {
+      flex-direction: column; /* Change to column layout on smaller screens */
+      padding: 0rem;
+      height: 100vh;
+    }
+    .signup-container {
+      margin-left: 5rem; /* Adjust margin */
+      margin-top: 1rem;
+    }
+    .department-container,
+    .email-container,
+    .username-container {
+      width: 30rem;
+      padding: 1rem 2rem 1rem 0rem; /* Adjusted padding */
+      margin-bottom: 0.5rem;
+    }
+    .password-container,
+    .confirmpassword-container {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      width: 14.1rem; /* Adjusted width */
+    }
+    .signup-button {
+      width: 30rem;
+      margin-top: 0rem;
+      padding: 1rem 2rem 1rem 2rem; /* Adjusted padding */
+    }
+    .already-have-account {
+      margin-top: 0.5rem;
+      font-size: small;
+    }
+    .signup-line-container {
+      width: 30rem;
+    }
+    .signup-or {
+      font-size: small;
+    }
+    .signup-back-home {
+      margin-top: 0.5rem;
+      font-size: 1.3rem;
+    }
+    .signup-red-container {
+      margin-left: 0rem;
+    }
+    .signup-scorecard-container {
+      margin-top: 3rem;
+      margin-left: 3rem; /* Adjusted margin */
+      width: 3rem; /* Adjusted width */
+      height: 3rem; /* Adjusted height */
+    }
+    .signup-swot-container,
+    .signup-strategy-container {
+      margin-top: 1rem;
+      margin-left: 3rem; /* Adjusted margin */
+      width: 3rem; /* Adjusted width */
+      height: 3rem; /* Adjusted height */
+    }
+    .signup-scorecard-text {
+      font-size: 1.3rem;
+      margin-left: 6rem; /* Adjusted margin */
+    }
+    .signup-yellow-letter {
+      font-size: 1.3rem;
+    }
+  }
+}
